@@ -1,4 +1,5 @@
 var audiop = new Audio('audiop.mp3');
+audiop.volume=0.3;
 
 function RegularSom() {
     var som = document.getElementById('so')
@@ -35,6 +36,7 @@ function RegularSom() {
 function Vitoria() {
     const vitoria = new Audio('vitoria.mp3');
     vitoria.play();
+    vitoria.volume=0.3;
 }
 
 var matriz = [

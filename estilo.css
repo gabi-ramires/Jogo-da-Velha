@@ -85,6 +85,7 @@ body.O {
     color: green;
 }
 
+
 .caixote{
     justify-content: center;
     display: flex;
@@ -100,8 +101,6 @@ body.O {
     display: flex;
     justify-content: center;
     margin-top:10px;
-
-    
 }
 
 #reset{
@@ -118,3 +117,11 @@ button:hover{
     filter: brightness(1.3);
 }
 
+#jogador{
+    text-align: center;
+    color:white;
+    font: normal 15pt Arial;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+}

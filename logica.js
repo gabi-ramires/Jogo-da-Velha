@@ -1,4 +1,10 @@
+const audiop = new Audio('audiop.mp3');
+audiop.play();
 
+function Vitoria() {
+    const vitoria = new Audio('vitoria.mp3');
+    vitoria.play();
+}
 
 var matriz = [
     ['', '', ''],
@@ -47,6 +53,7 @@ function Verificar() {
                 if ((matriz[i][1] != "") && (matriz[i][2] != "")) { //garante que não é vazio
 
                     area.innerHTML = `${matriz[i][j]} Ganhou!`
+                    Vitoria();
                 }
             }
 
@@ -55,6 +62,7 @@ function Verificar() {
                 if ((matriz[1][j] != "") && (matriz[2][j] != "")) { //garante que não é vazio
 
                     area.innerHTML = `${matriz[i][j]} Ganhou!`
+                    Vitoria();
                 }
             }
 
@@ -63,6 +71,7 @@ function Verificar() {
                 if ((matriz[0][0] != "") && (matriz[2][2] != "")) { //garante que não é vazio
 
                     area.innerHTML = `${matriz[0][0]} Ganhou!`
+                    Vitoria();
                 }
             }
 
@@ -71,6 +80,7 @@ function Verificar() {
                 if ((matriz[0][2] != "") && (matriz[2][0] != "")) { //garante que não é vazio
 
                     area.innerHTML = `${matriz[0][2]} Ganhou!`
+                    Vitoria();
                 }
             }
 
@@ -81,22 +91,31 @@ function Verificar() {
 
 }
 
+
 var contador = 0;
 
 function Atribuir(id) {
 
-
+ 
     var valor = document.getElementById(id);
-
+    var jog = document.getElementById('jog');
     contador++
 
     if (contador % 2 == 0) {
+        valor.style.color = "blue";
         valor.value = "O";
+        
+        jog.style.color = "red";
+        jog.innerHTML = "X"
         mouseX();
     }
 
     else {
+        valor.style.color = "red";
         valor.value = "X";
+
+        jog.style.color = "blue";
+        jog.innerHTML = "O";
         mouseO();
     }
 

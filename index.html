@@ -8,6 +8,8 @@
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="icon" href="jogo-da-velha.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+   
     <style>
         * {
             box-sizing: border-box;
@@ -49,12 +51,13 @@
 
     <div class="btn">
         <button id="reset" onclick="Resetar()">Resetar</button>
+        <div id="so" class="som" onclick="RegularSom()"><i id="icone" class="mdi mdi-volume-off"></i></div>
     </div>
-
+    
     <div id="area">
 
     </div>
-
+  
     <div id="jogador">
         Jogador: &nbsp;<p id="jog" style="color:red"><strong> X</strong></p>
     </div>

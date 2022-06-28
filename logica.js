@@ -1,5 +1,36 @@
-const audiop = new Audio('audiop.mp3');
-audiop.play();
+var audiop = new Audio('audiop.mp3');
+
+function RegularSom() {
+    var som = document.getElementById('so')
+
+    var classe = som.getAttribute('class');
+    var icone = document.getElementById('icone')
+    
+
+    console.log(classe);
+
+    if (classe == "som") {
+
+
+        audiop.play();
+        som.classList.add('clicado');
+
+        icone.classList.remove('mdi-volume-off');
+        icone.classList.add('mdi-volume-medium');
+
+
+
+    } else {
+        audiop.pause();
+        som.classList.remove('clicado');
+
+        icone.classList.remove('mdi-volume-medium');
+        icone.classList.add('mdi-volume-off');
+    }
+}
+
+
+
 
 function Vitoria() {
     const vitoria = new Audio('vitoria.mp3');
@@ -96,7 +127,7 @@ var contador = 0;
 
 function Atribuir(id) {
 
- 
+
     var valor = document.getElementById(id);
     var jog = document.getElementById('jog');
     contador++
@@ -104,7 +135,7 @@ function Atribuir(id) {
     if (contador % 2 == 0) {
         valor.style.color = "blue";
         valor.value = "O";
-        
+
         jog.style.color = "red";
         jog.innerHTML = "X"
         mouseX();

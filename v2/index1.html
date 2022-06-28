@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="estilo1.css">
+    <link rel="icon" href="jogo-da-velha.png" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(#121212, #212b46);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="caixote">
+        <h1>Jogo da Velha</h1>
+        <div class="conteiner">
+            <input id="0" class=input onclick="Atribuir('0')&Verificar('0')">
+            <input id="1" class=input onclick="Atribuir('1')&Verificar('1')">
+            <input id="2" class=input onclick="Atribuir('2')&Verificar('2')">
+        </div>
+        <div class="conteiner">
+            <input id="3" class=input onclick="Atribuir('3')&Verificar('3')">
+            <input id="4" class=input onclick="Atribuir('4')&Verificar('4')">
+            <input id="5" class=input onclick="Atribuir('5')&Verificar('5')">
+        </div>
+        <div class="conteiner">
+            <input id="6" class=input onclick="Atribuir('6')&Verificar('6')">
+            <input id="7" class=input onclick="Atribuir('7')&Verificar('7')">
+            <input id="8" class=input onclick="Atribuir('8')&Verificar('8')">
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="btn">
+        <button id="reset" onclick="Resetar()">Resetar</button>
+    </div>
+
+    <div id="area">
+
+    </div>
+
+    <footer class="footer">Desenvolvido por: Gabriela Ramires | Para mais aplicações: <a
+            href="https://portfolio-gabi.herokuapp.com/">www.portfolio-gabi.herokuapp.com</footer>
+    <script src="logica1.js"></script>
+</body>
+
+</html>

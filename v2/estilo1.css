@@ -1,0 +1,120 @@
+h1 {
+    color: white;
+    opacity: 0.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background: gray;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer a {
+
+    color: white;
+}
+
+
+body {
+    cursor: url(x.png), auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body.O {
+    cursor: url(o.png), auto !important;
+}
+
+.conteiner {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.input {
+    width: 90px;
+    margin: 10px;
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+    background: rgb(68, 101, 109);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    cursor: url(x.png), auto;
+
+
+}
+
+.input.O {
+    width: 90px;
+    margin: 10px;
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+    background: rgb(68, 101, 109);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    cursor: url(o.png), auto;
+}
+
+.input:hover {
+    filter: brightness(1.3);
+}
+
+
+
+#area {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font: normal 20pt Arial;
+    color: green;
+}
+
+.caixote{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+
+}
+
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+
+    
+}
+
+#reset{
+    height: 40px;
+    width: 310px;
+    background-color: rgb(49, 48, 136);
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    filter: brightness(1.3);
+}
+

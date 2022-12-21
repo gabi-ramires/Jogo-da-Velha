@@ -1,3 +1,3 @@
 # Jogo da Velha
 
-Link: https://jogo-da-velha-gabi.herokuapp.com/
+Link: http://jogo-da-velha.epizy.com/

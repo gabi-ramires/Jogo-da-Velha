@@ -2,6 +2,12 @@
 
 Bem-vindo ao Jogo da Velha (Tic-Tac-Toe)! Este é um jogo simples implementado em HTML, JavaScript e CSS. O jogo permite que dois jogadores joguem em um tabuleiro 3x3 e inclui funcionalidades de música de fundo, música de vitória e opção de pausar a música.
 
+## Como Jogar 🎮
+
+Para jogar o Jogo da Velha, basta clicar no link abaixo:
+
+[Jogar](http://jogodavelha.free.nf/)
+
 ## Tecnologias Usadas 🚀
 
 - HTML: A estrutura da página do jogo.
@@ -16,11 +22,6 @@ Bem-vindo ao Jogo da Velha (Tic-Tac-Toe)! Este é um jogo simples implementado e
 - Música de vitória: Uma música é reproduzida quando um jogador ganha.
 - Opção de pausar a música: Você pode pausar ou retomar a música a qualquer momento.
 
-## Como Jogar 🎮
-
-Para jogar o Jogo da Velha, basta clicar no link abaixo:
-
-[Jogar ](http://jogodavelha.free.nf/)
 
 ## Personalização 🎨
 
